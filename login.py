@@ -32,9 +32,9 @@ def create_window2():
         text_box.insert('0.0', test03weather.insert_list(str))
 
     # Button(window2, text='查询当前所在城市的天气',
-    #        command=lambda: clear_text and text_box.insert('0.0', test03weather.insert_list('太原'))).place(relx=0.1, relwidth=0.35)
+    #        command=lambda: clear_text and text_box.insert('0.0', test03weather.insert_list('北京'))).place(relx=0.1, relwidth=0.35)
     Button(window2, text='查询当前所城市的天气',
-           command=lambda: insert_text('太原')).place(relx=0.1, relwidth=0.35)
+           command=lambda: insert_text('北京')).place(relx=0.1, relwidth=0.35)
     city1 = StringVar()
     Entry(window2, textvariable=city1).place(relx=0.1, rely=0.1, relwidth=0.35)
     # Button(window2, text='输入所要查询城市的天气',
